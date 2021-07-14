@@ -14,7 +14,6 @@ var model = document.querySelector("#model");
 var score = 0;
 var userChoice;
 
-
 buttons.forEach(function(button){
     button.addEventListener('click', function(){
         userChoice = this.id;

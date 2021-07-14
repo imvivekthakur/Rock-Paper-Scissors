@@ -194,26 +194,17 @@ h4 {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1000px) {
-    .header {
-        max-width: 500px;
-    }
-    .selection{
-        transform: scale(0.8);
-    }
-    .rules {
-        transform: scale(0.9);
-    }
+.box-3 {
+    order: 2;
 }
 
-@media (max-width: 680px) {
-    .container {
-        transform: scale(0.8);
+@media only screen and (max-width: 680px) {
+    .score {
+        padding: 10px 20px;
     }
-    .selection {
-        transform: scale(0.7);
-    }
-    .rules {
-        transform: scale(0.7);
+
+    .box-2 {
+        position: relative;
+        top: 250px;
     }
 }
